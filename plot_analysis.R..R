@@ -8,3 +8,10 @@ data %>%
   ggplot(aes(x = displ, y = hwy)) + 
   geom_point() +
   theme_minimal()
+
+data %>% 
+  ggplot(aes(x = displ, y = hwy)) + 
+  geom_smooth() +
+  theme_minimal()
+
+##new plot
