@@ -8,3 +8,5 @@ data %>%
   ggplot(aes(x = displ, y = hwy)) + 
   geom_point() +
   theme_minimal()
+
+##new_chart3
